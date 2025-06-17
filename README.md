@@ -112,7 +112,7 @@ const collection = db('databaseName').collection('collectionName');
 
 - `await collection.insertOne(doc, user)`
 - `await collection.insertMany([doc1, doc2], user)`
-- `collection.find(query, user)`
+- `await collection.find(query, user)`
 - `await collection.updateOne(filter, update, options, user)`
 - `await collection.deleteOne(filter, user)`
 - `await collection.createIndex(field, user)`
