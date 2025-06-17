@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcrypto": "^5.5.2",
+    "crypto": "^1.0.1"
+  }
+}
